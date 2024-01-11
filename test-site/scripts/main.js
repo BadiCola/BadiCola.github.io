@@ -7,7 +7,7 @@ let myImage = document.querySelector("img");
 myImage.onclick = function () {
     let mySrc = myImage.getAttribute("src");
     if (mySrc === "images/uestc.png") {
-        myImage.setAttribute("src", "/Users/lhy/Library/Mobile Documents/com~apple~CloudDocs/onlinejudge-web-project/test-site/雪人.svg");
+        myImage.setAttribute("src", "images/snowman.svg");
     } else {
         myImage.setAttribute("src", "images/uestc.png");
     }
